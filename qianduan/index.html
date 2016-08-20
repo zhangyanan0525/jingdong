@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/jingdongshouye.css">
 	<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
 	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+	<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+	<script type="text/javascript" src="js/template.js"></script>
 </head>
 <body>
 	<div id="head" class="clearfloat">
@@ -16,7 +18,7 @@
 					<div>送至：<span>北京</span><i class="iconfont jiantou-copy">&#xe604;</i></div>
 				</li>
 				<li class="all-adress" style="display:none;">
-					<div><a href="#">北京</a></div>
+					<!-- <div><a href="#">北京</a></div>
 					<div><a href="#">上海</a></div>
 					<div><a href="#">天津</a></div>
 					<div><a href="#">重庆</a></div>
@@ -51,7 +53,7 @@
 					<div><a href="#">香港</a></div>
 					<div><a href="#">澳门</a></div>
 					<div><a href="#">钓鱼钓</a></div>
-					<div><a href="#">海外</a></div>
+					<div><a href="#">海外</a></div> -->
 				</li>
 			</ul>
 			<ul id="hr">
@@ -109,7 +111,7 @@
 				<li class="phone-jingdong">
 					<div>
 						<span></span>
-						<a href="#">手机京东<i class="iconfont jiantou-copy">&#xe604;</i></a>
+						<a href="#">手机京东</a>
 					</div>
 				</li>
 				<li class="cutline"></li>
@@ -241,8 +243,8 @@
 					<span>购物车中还没有商品，赶紧选购吧！</span>
 				</div>
 			</div>
-			<ul>
-				<li><a href="#">2件8折</a></li>
+			<ul class="prompts">
+				<!-- <li><a href="#">2件8折</a></li>
 				<li><a href="#">两件99元</a></li>
 				<li><a href="#">9.9免邮</a></li>
 				<li><a href="#">低至一元</a></li>
@@ -250,7 +252,7 @@
 				<li><a href="#">长袖衬衫女</a></li>
 				<li><a href="#">学生书包</a></li>
 				<li><a href="#">0元试用</a></li>
-				<li><a href="#">休闲鞋</a></li>
+				<li><a href="#">休闲鞋</a></li> -->
 			</ul>
 		</div>
 	</div>
@@ -306,7 +308,7 @@
     <div id="main">
 		<div class="commonwidth">
 			<ul class="main-left">
-				<li style="opacity:1;">
+				<!-- <li style="opacity:1;">
 					<a href="#"><img src="images/57907b6aNd7ec1ae0.jpg"></a>
 				</li>
 				<li>
@@ -323,7 +325,7 @@
 				</li>
 				<li>
 					<a href="#"><img src="images/5788ad72N91bd53df.jpg"></a>
-				</li>
+				</li> -->
 			</ul>
 			<ul class="order">
 				<li class="foucus">1</li>
@@ -340,8 +342,8 @@
 					<a href="#">更多&nbsp;></a>
 				</div>
 				<div class="kuaibao-content">
-					<ul>
-						<li>
+					<ul class="kb-cont-ul">
+						<!-- <li>
 							<a href="#"><span>[特惠]</span>为品牌点赞，迎新机等豪礼</a>
 						</li>
 						<li>
@@ -355,7 +357,7 @@
 						</li>
 						<li>
 							<a href="#"><span>[特惠]</span>刃性四年就拼一回满199减100</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 				<ul class="category">
@@ -466,8 +468,8 @@
 				<div class="spacer">
 					<i></i>
 				</div>
-				<ul>
-					<li>
+				<ul class="bottom-ul">
+					<!-- <li>
 						<div>
 							<a href="#"><img src="images/578dd4a2N8a798d34.jpg"></a>
 						</div>
@@ -520,7 +522,7 @@
 							<a href="#">容声(Ronshen)BCD-202M/TX6 202升 三门冰箱 家用一级节能 门封保护 自感应温度补偿(拉丝银)</a>
 							<span><i>￥</i>1199.00</span>
 						</div>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -528,7 +530,7 @@
     <div id="qualityLife" class="commonwidth">
     	<h2>京东 · 品质生活</h2>
     	<div class="qL-content">
-    		<div class="content-1">
+    		<!-- <div class="content-1">
     			<a href="#" class="item">
     				<p>新发现</p>
     				<div class="tet-con">
@@ -670,7 +672,7 @@
     					</li>
     				</ul>
     			</div>
-    		</div>
+    		</div> -->
     	</div>
     </div>
     <div id="floor" class="commonwidth">
@@ -701,7 +703,7 @@
         		</div>
         		<div class="clo-bottom">
         			<div class="side">
-        				<div class="side-top" style="width:330px;">
+        				<!-- <div class="side-top" style="width:330px;">
         				    <div class="bkgd">
         				    	<i></i>
         					    <a href="#"><img src="images/579e9949Ne77a210b.jpg"></a>
@@ -779,11 +781,11 @@
         					<a href="#">
         						<img src="images/579e9910Na583c2b8.jpg">
         					</a>
-        				</div>
+        				</div> -->
         			</div>
         			<div class="main">
         				<div class="main-normal clearfloat">
-        					<ul class="normal-l">
+        					<!-- <ul class="normal-l">
         						<li class="l-1">
         							<a href="#">
         								<img src="images/579e9b3bN77e59677.jpg">
@@ -831,16 +833,16 @@
         								<img src="images/579eeebbN9ba3b0d2.jpg">
         							</a>
         						</li>
-        					</ul>
+        					</ul> -->
         				</div>
         				<div class="main-carousel">
         					<ul class="m-c-body">
-        					    <li><a href="#"><img src="images/57a2061bN8ca00925.jpg"></a></li>
+        					    <!-- <li><a href="#"><img src="images/57a2061bN8ca00925.jpg"></a></li>
         						<li><a href="#"><img src="images/57a20659N4f97a2b2.jpg"></a></li>
         						<li><a href="#"><img src="images/57a205f0N2ec1d7ba.jpg"></a></li>
         						<li><a href="#"><img src="images/57a20637Ndee21f4b.jpg"></a></li>
         						<li><a href="#"><img src="images/57a2061bN8ca00925.jpg"></a></li>
-        						<li><a href="#"><img src="images/57a20659N4f97a2b2.jpg"></a></li>
+        						<li><a href="#"><img src="images/57a20659N4f97a2b2.jpg"></a></li> -->
         					</ul>
         					<!-- <div class="pre">&lt;</div>
         					<div class="next">&gt;</div> -->
@@ -852,7 +854,7 @@
                             </ul>
         				</div>
         			</div>
-        			<div class="main" style="display:none;">
+        			<!-- <div class="main" style="display:none;">
         				<ul class="main-top">
         					<li>
         					    <a href="#">
@@ -1635,11 +1637,11 @@
         					    </a>
         					</li>
         				</ul>
-        			</div>
+        			</div> -->
         		</div>
         	</div>
         	<div class="brands">
-        		<ul>
+        		<!-- <ul>
 					<li>
 						<a href="#">
 							<img src="images/57a011aaN08792aad.jpg">
@@ -1690,7 +1692,7 @@
 							<img src="images/5732ec02N847c5d0f.jpg">
 						</a>
 					</li>
-        		</ul>
+        		</ul> -->
         	</div>
         </div>
         <div class="floor2">
@@ -1715,7 +1717,7 @@
         		</div>
         		<div class="clo-bottom">
         			<div class="side" style="width:210px;">
-        				<div class="side-top">
+        				<!-- <div class="side-top">
         				    <div class="bkgd">
         				    	<i></i>
         					    <a href="#"><img src="images/579ea147Nea622667.jpg"></a>
@@ -1770,11 +1772,11 @@
         							<a href="#">纸品馆</a>
         						</li>
         					</ul>
-        				</div>
+        				</div> -->
         			</div>
         			<div class="main">
         				<div class="main-normal clearfloat">
-        					<ul>
+        					<!-- <ul>
         						<li class="n-1">
         							<a href="#">
         								<img src="images/579f0119N61a0cd18.jpg">
@@ -1805,11 +1807,11 @@
         								<img src="images/57a3f69dN377f22b0.jpg">
         							</a>
         						</li>
-        					</ul>
+        					</ul> -->
         				</div>
         				<div class="main-carousel">
         					<ul class="m-c-body">
-        					    <li>
+        					    <!-- <li>
 	        					    <a href="#">
 		        					    <img src="images/57a7e121N24b4afce.jpg">
 	        					    </a>
@@ -1856,7 +1858,7 @@
 	        					    <a href="#">
 		        					    <img src="images/57a2b3abNa0f7efe4.jpg">
 	        					    </a>
-        					    </li>
+        					    </li> -->
         					</ul>
         					<!-- <div class="pre">&lt;</div>
         					<div class="next">&gt;</div> -->
@@ -1868,7 +1870,7 @@
                             </ul>
         				</div>
         			</div>
-        			<div class="main" style="display:none;">
+        			<!-- <div class="main" style="display:none;">
 	        				<ul class="main-top">
 	        					<li>
 	        					    <a href="#">
@@ -2619,11 +2621,11 @@
 	        					    </a>
 	        					</li>
 	        				</ul>
-        			</div>
+        			</div> -->
         		</div>
         	</div>
         	<div class="brands">
-        		<ul>
+        		<!-- <ul>
 					<li>
 						<a href="#">
 							<img src="images/5796d480Ncfa8d427.jpg">
@@ -2674,7 +2676,7 @@
 							<img src="images/57a7e92dN92ccfd52.jpg">
 						</a>
 					</li>
-        		</ul>
+        		</ul> -->
         	</div>
         </div>
         <div class="floor-banner clearfloat">
@@ -2704,7 +2706,7 @@
         		</div>
         		<div class="clo-bottom">
         			<div class="side">
-        				<div class="side-top" style="width:330px;">
+        				<!-- <div class="side-top" style="width:330px;">
         				    <div class="bkgd">
         				    	<i></i>
         					    <a href="#"><img src="images/57a45796N4a371097.jpg"></a>
@@ -2777,11 +2779,11 @@
         							<a href="#">自营配件</a>
         						</li>
         					</ul>
-        				</div>
+        				</div> -->
         			</div>
         			<div class="main">
         				<div class="main-normal clearfloat">
-        					<ul class="normal-l">
+        					<!-- <ul class="normal-l">
         						<li class="l-1">
         							<a href="#">
         								<img src="images/57a9b8f0N80347c71.jpg">
@@ -2824,16 +2826,16 @@
         								<img src="images/57a9b9a0N0647eb9c.jpg">
         							</a>
         						</li>
-        					</ul>
+        					</ul> -->
         				</div>
         				<div class="main-carousel">
         					<ul class="m-c-body">
-        					    <li><a href="#"><img src="images/57a9979cN4798cae8.jpg"></a></li>
+        					    <!-- <li><a href="#"><img src="images/57a9979cN4798cae8.jpg"></a></li>
         						<li><a href="#"><img src="images/57a9904cNb672ff7f.jpg"></a></li>
         						<li><a href="#"><img src="images/57aa78daNd44ce91e.jpg"></a></li>
         						<li><a href="#"><img src="images/57aa78feNe1f265ba.jpg"></a></li>
         						<li><a href="#"><img src="images/57a9979cN4798cae8.jpg"></a></li>
-        						<li><a href="#"><img src="images/57a9904cNb672ff7f.jpg"></a></li>
+        						<li><a href="#"><img src="images/57a9904cNb672ff7f.jpg"></a></li> -->
         					</ul>
         					<!-- <div class="pre">&lt;</div>
         					<div class="next">&gt;</div> -->
@@ -2845,7 +2847,7 @@
                             </ul>
         				</div>
         			</div>
-        			<div class="main" style="display:none;">
+        			<!-- <div class="main" style="display:none;">
         				<ul class="main-top">
         					<li>
         					    <a href="#">
@@ -3452,11 +3454,11 @@
         					    </a>
         					</li>
         				</ul>
-        			</div>
+        			</div> -->
         	    </div>
             </div>
             <div class="brands">
-        		<ul>
+        		<!-- <ul>
 					<li>
 						<a href="#">
 							<img src="images/56414bbdN9750594a.png">
@@ -3507,7 +3509,7 @@
 							<img src="images/5787046bN9fa6b609.jpg">
 						</a>
 					</li>
-        		</ul>
+        		</ul> -->
         	</div>
         </div>
         <div class="floor4">
@@ -3532,7 +3534,7 @@
         		</div>
         		<div class="clo-bottom">
         			<div class="side">
-        				<div class="side-top" style="width:330px;">
+        				<!-- <div class="side-top" style="width:330px;">
         				    <div class="bkgd">
         				    	<i></i>
         					    <a href="#"><img src="images/57a750e5Nee3bfeee.jpg"></a>
@@ -3600,11 +3602,11 @@
         							<a href="#">电风扇</a>
         						</li>
         					</ul>
-        				</div>
+        				</div> -->
         			</div>
         			<div class="main">
         				<div class="main-normal clearfloat">
-        					<ul class="normal-l">
+        					<!-- <ul class="normal-l">
         						<li class="l-1">
         							<a href="#">
         								<img src="images/57a8a861N40663e06.jpg">
@@ -3647,16 +3649,16 @@
         								<img src="images/57a42e5bN0fc95c3d.jpg">
         							</a>
         						</li>
-        					</ul>
+        					</ul> -->
         				</div>
         				<div class="main-carousel">
         					<ul class="m-c-body">
-        					    <li><a href="#"><img src="images/57a9979cN4798cae8.jpg"></a></li>
+        					    <!-- <li><a href="#"><img src="images/57a9979cN4798cae8.jpg"></a></li>
         						<li><a href="#"><img src="images/57a9904cNb672ff7f.jpg"></a></li>
         						<li><a href="#"><img src="images/57aa78daNd44ce91e.jpg"></a></li>
         						<li><a href="#"><img src="images/57aa78feNe1f265ba.jpg"></a></li>
         						<li><a href="#"><img src="images/57a9979cN4798cae8.jpg"></a></li>
-        						<li><a href="#"><img src="images/57a9904cNb672ff7f.jpg"></a></li>
+        						<li><a href="#"><img src="images/57a9904cNb672ff7f.jpg"></a></li> -->
         					</ul>
         					<!-- <div class="pre">&lt;</div>
         					<div class="next">&gt;</div> -->
@@ -3668,7 +3670,7 @@
                             </ul>
         				</div>
         			</div>
-        			<div class="main" style="display:none;">
+        			<!-- <div class="main" style="display:none;">
         				<ul class="main-top">
         					<li>
         					    <a href="#">
@@ -4275,11 +4277,11 @@
         					    </a>
         					</li>
         				</ul>
-        			</div>
+        			</div> -->
         	    </div>
             </div>
             <div class="brands">
-        		<ul>
+        		<!-- <ul>
 					<li>
 						<a href="#">
 							<img src="images/55028bb4N78c090dc.jpg">
@@ -4330,7 +4332,7 @@
 							<img src="images/54bf5db9N91ad71b6.jpg">
 						</a>
 					</li>
-        		</ul>
+        		</ul> -->
         	</div>
         </div>
         <div class="floor5">
@@ -4355,7 +4357,7 @@
         		</div>
         		<div class="clo-bottom">
         			<div class="side">
-        				<div class="side-top" style="width:330px;">
+        				<!-- <div class="side-top" style="width:330px;">
         				    <div class="bkgd">
         				    	<i></i>
         					    <a href="#"><img src="images/57a84cd2N113896fc.jpg"></a>
@@ -4427,11 +4429,11 @@
         							<a href="#">显示器</a>
         						</li>
         					</ul>
-        				</div>
+        				</div> -->
         			</div>
         			<div class="main">
         				<div class="main-normal clearfloat">
-        					<ul class="normal-l">
+        					<!-- <ul class="normal-l">
         						<li class="l-1">
         							<a href="#">
         								<img src="images/57aa838bNb8ca5f72.jpg">
@@ -4474,16 +4476,16 @@
         								<img src="images/57a7f5e5N040d6dc6.jpg">
         							</a>
         						</li>
-        					</ul>
+        					</ul> -->
         				</div>
         				<div class="main-carousel">
         					<ul class="m-c-body">
-        					    <li><a href="#"><img src="images/57a49674N9418d8fc.jpg"></a></li>
+        					    <!-- <li><a href="#"><img src="images/57a49674N9418d8fc.jpg"></a></li>
         						<li><a href="#"><img src="images/57a015bfN1718bee8.jpg"></a></li>
         						<li><a href="#"><img src="images/57a45c7fN15f41989.jpg"></a></li>
         						<li><a href="#"><img src="images/57a3085aN654b6da4.jpg"></a></li>
         						<li><a href="#"><img src="images/57a49674N9418d8fc.jpg"></a></li>
-        						<li><a href="#"><img src="images/57a015bfN1718bee8.jpg"></a></li>
+        						<li><a href="#"><img src="images/57a015bfN1718bee8.jpg"></a></li> -->
         					</ul>
         					<!-- <div class="pre">&lt;</div>
         					<div class="next">&gt;</div> -->
@@ -4495,7 +4497,7 @@
                             </ul>
         				</div>
         			</div>
-        			<div class="main" style="display:none;">
+        			<!-- <div class="main" style="display:none;">
         				<ul class="main-top">
         					<li>
         					    <a href="#">
@@ -5102,11 +5104,11 @@
         					    </a>
         					</li>
         				</ul>
-        			</div>
+        			</div> -->
         	    </div>
             </div>
             <div class="brands">
-        		<ul>
+        		<!-- <ul>
 					<li>
 						<a href="#">
 							<img src="images/55658277N72040bf5.png">
@@ -5157,7 +5159,7 @@
 							<img src="images/56f4dfdbN18ea4f75.jpg">
 						</a>
 					</li>
-        		</ul>
+        		</ul> -->
         	</div>
         </div>
         <div class="floor-banner clearfloat">
@@ -5185,7 +5187,7 @@
         		</div>
         		<div class="clo-bottom">
         			<div class="side" style="width:210px;">
-        				<div class="side-top">
+        				<!-- <div class="side-top">
         				    <div class="bkgd">
         				    	<i></i>
         					    <a href="#"><img src="images/57a74a0cN300d28fa.jpg"></a>
@@ -5240,11 +5242,11 @@
         							<a href="#">篮球馆</a>
         						</li>
         					</ul>
-        				</div>
+        				</div> -->
         			</div>
         			<div class="main">
         				<div class="main-normal clearfloat">
-        					<ul>
+        					<!-- <ul>
         						<li class="n-1">
         							<a href="#">
         								<img src="images/57ab3f79Nce90e4f8.jpg">
@@ -5275,11 +5277,11 @@
         								<img src="images/57ab3f98Nd7a23d51.jpg">
         							</a>
         						</li>
-        					</ul>
+        					</ul> -->
         				</div>
         				<div class="main-carousel">
         					<ul class="m-c-body">
-        					    <li>
+        					   <!--  <li>
 	        					    <a href="#">
 		        					    <img src="images/57ab3dfdN9845b72e.jpg">
 	        					    </a>
@@ -5326,7 +5328,7 @@
 	        					    <a href="#">
 		        					    <img src="images/57ab3da7N1256c569.jpg">
 	        					    </a>
-        					    </li>
+        					    </li> -->
         					</ul>
         					<!-- <div class="pre">&lt;</div>
         					<div class="next">&gt;</div> -->
@@ -5338,7 +5340,7 @@
                             </ul>
         				</div>
         			</div>
-        			<div class="main" style="display:none;">
+        			<!-- <div class="main" style="display:none;">
 	        				<ul class="main-top">
 	        					<li>
 	        					    <a href="#">
@@ -5901,11 +5903,11 @@
 	        					    </a>
 	        					</li>
 	        				</ul>
-        			</div>
+        			</div> -->
         		</div>
             </div>
             <div class="brands">
-        		<ul>
+        		<!-- <ul>
 					<li>
 						<a href="#">
 							<img src="images/57a8589eN4ec90974.jpg">
@@ -5956,7 +5958,7 @@
 							<img src="images/579585aeNae62af81.png">
 						</a>
 					</li>
-        		</ul>
+        		</ul> -->
         	</div>
         </div>
         <div class="floor7">
@@ -5980,7 +5982,7 @@
         		</div>
         		<div class="clo-bottom">
         			<div class="side" style="width:210px;">
-        				<div class="side-top">
+        				<!-- <div class="side-top">
         				    <div class="bkgd">
         				    	<i></i>
         					    <a href="#"><img src="images/57ab434bN35084ab8.jpg"></a>
@@ -6037,11 +6039,11 @@
         							<a href="#">门店</a>
         						</li>
         					</ul>
-        				</div>
+        				</div> -->
         			</div>
         			<div class="main">
         				<div class="main-normal clearfloat">
-        					<ul>
+        					<!-- <ul>
         						<li class="n-1">
         							<a href="#">
         								<img src="images/57ab3e7bN03256c6c.jpg">
@@ -6072,11 +6074,11 @@
         								<img src="images/57a2dca2Nd2b8bef3.jpg">
         							</a>
         						</li>
-        					</ul>
+        					</ul> -->
         				</div>
         				<div class="main-carousel">
         					<ul class="m-c-body">
-        					    <li>
+        					    <!-- <li>
 	        					    <a href="#">
 		        					    <img src="images/57ab3cc2N3d13dff8.jpg">
 	        					    </a>
@@ -6123,7 +6125,7 @@
 	        					    </a>
 	        					    <a href="#">
 		        					    <img src="images/57ab3c71Nf50acc5d.jpg">
-	        					    </a>
+	        					    </a> -->
         					</ul>
         					<!-- <div class="pre">&lt;</div>
         					<div class="next">&gt;</div> -->
@@ -6135,7 +6137,7 @@
                             </ul>
         				</div>
         			</div>
-        			<div class="main" style="display:none;">
+        			<!-- <div class="main" style="display:none;">
 	        				<ul class="main-top">
 	        					<li>
 	        					    <a href="#">
@@ -6792,11 +6794,11 @@
 	        					    </a>
 	        					</li>
 	        				</ul>
-        			</div>
+        			</div> -->
         		</div>
             </div>
             <div class="brands">
-        		<ul>
+        		<!-- <ul>
 					<li>
 						<a href="#">
 							<img src="images/578f2eb0Ne16a2d73.jpg">
@@ -6847,7 +6849,7 @@
 							<img src="images/56ca8199Nf2aca5d0.jpg">
 						</a>
 					</li>
-        		</ul>
+        		</ul> -->
         	</div>
         </div>
     </div>    
